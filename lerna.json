@@ -1,0 +1,18 @@
+{
+  "npmClient": "yarn",
+  "packages": ["packages/*"],
+  "version": "0.1.0",
+  "command": {
+    "publish": {
+      "verifyAccess": false,
+      "allowBranch": ["master"],
+      "ignoreChanges": ["**/__tests__/**", "*.md"]
+    },
+    "version": {
+      "allowBranch": ["master"],
+      "message": "chore(release): publish %s",
+      "ignoreChanges": ["**/__tests__/**", "*.md"]
+    }
+  },
+  "useWorkspaces": true
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@mishannn/tinkoff-stocks-monitor",
+  "version": "0.1.0",
+  "description": "Библиотека для уведомления о изменении цен акций",
+  "keywords": [
+    "tinkoff",
+    "stocks",
+    "price",
+    "moitor"
+  ],
+  "main": "dist/tinkoff-stocks-monitor.js",
+  "browser": "dist/tinkoff-stocks-monitor.js",
+  "types": "./dist/types/Monitor.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishannn/tinkoff-stocks-monitor.git",
+    "directory": "packages/tinkoff-stocks-monitor"
+  },
+  "bugs": {
+    "url": "https://github.com/mishannn/tinkoff-stocks-monitor/issues"
+  },
+  "author": "https://github.com/mishannn",
+  "homepage": "https://github.com/mishannn/tinkoff-stocks-monitor",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn clean && webpack",
+    "watch": "webpack --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "interval-promise": "^1.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

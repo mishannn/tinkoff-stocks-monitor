@@ -1,0 +1,24 @@
+.DS_Store
+node_modules
+/packages/*/dist/
+.rpt2_cache
+.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lint.log*
+lerna-debug.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Private example
+/examples/example.private.js

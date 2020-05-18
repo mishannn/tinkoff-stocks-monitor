@@ -1,0 +1,16 @@
+{
+  "name": "@mishannn/tinkoff-stocks-notifier",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node notifier.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "socks5-https-client": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.40.3"
+  }
+}
